@@ -32,5 +32,5 @@ Perforamnce parameters are approximately calculated with the help of graph video
 
 ## Rationale for the choice of cost parameters
 
-1. Q = np.diag( [100.,0.,10000.,0.] ) : Since, the angle of pole (theta) is more important for us while controlling than the position of cart, the 3rd diagonal element has given higher value than the 1st diagonal element. Also, the velocity of both pole and cart can be given least cost because those states do not matter much.
+1. Q = np.diag( [500.,0.,10000.,0.] ) : Since, the angle of pole (theta) is more important for us while controlling than the position of cart, the 3rd diagonal element has given higher value than the 1st diagonal element. Also, the velocity of both pole and cart can be given least cost because those states do not matter much.
 2. R = 2.5 : The low value of R implies that the controller is willing to generate more aggressive control inputs to achieve good tracking performance.
