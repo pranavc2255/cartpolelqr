@@ -11,7 +11,7 @@ Created LQR control ROS python script based on following cart-pole github: https
 
 ## Tuning the PID pole position (angle) controller, and regulate the pole angle at horizontal position.
 1. To launch rqt for PID control run and tune PID in the GUI by running: `rosrun rqt_reconfigure rqt_reconfigure`
-2. Run this to publish pole angle: `rostopic pub -r5 /invpend/joint2_position_controller/command std msgs/Float64 "data: 1.57"`
+2. Run this to publish pole angle: `rostopic pub -r5 /invpend/joint2_position_controller/command std_msgs/Float64 "data: 1.57"`
 
 
 ## Running LQR control
