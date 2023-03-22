@@ -13,6 +13,7 @@ Created LQR control ROS python script based on following cart-pole github: https
 1. To launch rqt for PID control run and tune PID in the GUI by running: `rosrun rqt_reconfigure rqt_reconfigure`
 2. Run this to publish pole angle: `rostopic pub -r5 /invpend/joint2_position_controller/command std_msgs/Float64 "data: 1.57"`
 
+[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi_webp/Pix90YIE1u0/mq1.webp?sqp=CNyr6qAG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLC8pEdVtUgs1-j-qJEZ_9fkifHL0Q)](https://youtu.be/Pix90YIE1u0)
 
 ## Running LQR control
 1. To run lqr control go to `cd ~/catkin_ws/src/invpend_experiment/invpend_control/scripts` and run: `python3 lqr_carpole.py`
