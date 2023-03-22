@@ -8,5 +8,5 @@ Created LQR control ROS python script based on following cart-pole github: https
 3. `catkin build` if you were using [Catkin Command Line Tools](https://catkin-tools.readthedocs.io/en/latest/)
 4. `source ~/catkin_ws/devel/setup.bash`
 5. run `roslaunch invpend_control load_invpend.launch` to spawn the model in gazebo and initiate ros_control
-6. To run lqr control go to 'cd ~/catkin_ws/src/invpend_experiment/invpend_control/scripts' and run: 'python3 lqr_carpole.py'
+6. To run lqr control go to `cd ~/catkin_ws/src/invpend_experiment/invpend_control/scripts` and run: 'python3 lqr_carpole.py'
 7. You can tune Q & R matrices according to your environment for better control performance.
