@@ -1,7 +1,7 @@
 # cartpolelqr
 Created LQR control ROS python script based on following cart-pole github: https://github.com/linZHank/invpend_experiment
 
-## Setup
+## Setup and Running LQR control
 > My configuration was Ubuntu 20.04LTS, ROS-Noetic and Gazebo\-11.0. Other combinations of Linux, ROS and Gazebo may work, but not guaranteed.
 1. cd to the `/catkin_ws` directory in ROS workspace (e.g. `cd ~/catkin_ws/`)
 2. `git clone https://github.com/pranavc2255/cartpolelqr'
