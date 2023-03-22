@@ -18,3 +18,5 @@ Created LQR control ROS python script based on following cart-pole github: https
 ## Running LQR control
 1. To run lqr control go to `cd ~/catkin_ws/src/invpend_experiment/invpend_control/scripts` and run: `python3 lqr_cartpole.py`
 2. You can tune Q & R matrices according to your environment for better control performance.
+
+[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi_webp/5_kW_u04PPY/mq2.webp?sqp=CKjm6qAG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLDb8WlF8Qe9KPgdZeeavNKKeImMgA)](https://youtu.be/5_kW_u04PPY)
